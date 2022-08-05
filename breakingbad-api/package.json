@@ -1,0 +1,14 @@
+{
+  "name": "breakingbad-api",
+  "version": "1.0.0",
+  "description": "Module to interact with the Breaking Bad API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ernesto Garcia",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^7.1.3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "breakingbad-server",
+  "version": "1.0.0",
+  "description": "A server to interact with breaking bad API",
+  "main": "server.js",
+  "scripts": {
+    "windows": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ernesto Garcia",
+  "license": "MIT",
+  "dependencies": {
+    "breakingbad-api": "file:../breakingbad-api",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.5.0",
+    "superagent": "^7.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
